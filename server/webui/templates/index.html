@@ -1,0 +1,16 @@
+{% with title="N3T_R4T" %}
+{% include "header.html" %}
+{% endwith %}
+
+<div class="container">
+	<section id="main_content">
+
+    <p>Welcome to N3T_R4T.</p>
+    <ul>
+    <li><a href="{{ url_for('webui.agent_list') }}"> Victims list</a></li>
+    </ul>
+
+  </section>
+</div>
+
+{% include "footer.html" %}

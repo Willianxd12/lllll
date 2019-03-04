@@ -1,0 +1,32 @@
+{% with custom_header=True %}
+{% include "header.html" %}
+{% endwith %}
+
+<header>
+<div class="container">
+<center>
+ <div style="white-space: pre;color:  #ffffff;font-weight: bold">
+  #     #  #####  #######     ######  #       ####### 
+  ##    # #     #    #        #     # #    #     #    
+  # #   #       #    #        #     # #    #     #    
+  #  #  #  #####     #        ######  #    #     #    
+  #   # #       #    #        #   #   #######    #    
+  #    ## #     #    #        #    #       #     #    
+  #     #  #####     #        #     #      #     #    
+        #######           
+</div>
+</center>
+</div>
+</header>
+
+<div class="container">
+  <center>
+  <section id="main_content">
+    <form method="POST">
+    <h2>Password </h2><input type="password" name="password" style="width: 50%"> <input type="submit" value="OK">
+    </form>
+  </section>
+</center>
+</div>
+
+{% include "footer.html" %}
